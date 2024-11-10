@@ -205,4 +205,9 @@ width: 80%;
     .info__amount, .info__waiting{
         border: none;
     }
+    .status__incogame{
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+    }
 }
