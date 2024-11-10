@@ -207,7 +207,7 @@ width: 80%;
     }
     .status__incogame{
         display: flex;
-        width: 80%;
+        width: 100%;
         justify-content: space-around;
     }
 }
