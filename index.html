@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>NEZA Balance</title>
+		<link rel="stylesheet" href="css/reset.css"/>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+	</head>
+	<body class="balance">
+		<header class="balance__header">
+			<div class="header__subtitle"><a class="subtitle__link">Neza / </a><a class="subtitle__link">  Личный кабинет  / </a><a class="subtitle__link">  Баланс и история вывода</a></div>
+			<h1 class="header__title">Личный кабинет</h1>
+		</header>
+
+		<main class="info__main">
+		 <div class="info__data">
+			<div class="main__choose">
+				<button class="choose__balance choose">Баланс</button>
+				<button class="choose__history-of-findings choose">История покупок</button>
+			</div>
+			<div class="history" style="display: none;">
+				<h3 class="history__title">История покупок:</h3>
+				<ul class="history-of-findings">
+				   <li class="history__element element1">Покупка</li>
+				   <li class="history__element element2">Покупка</li>
+				   <li class="history__element element3">Покупка</li>
+				   <li class="history__element element4">Покупка</li>
+				</ul>
+			</div>
+			<div class="balance__info" style="display: none;">
+				<div class="info__amount">
+					<p class="amount__text">Доступно к выводу</p>
+					<p class="amount__number">0,0 Баллов</p>
+				</div>
+				<div class="info__waiting">
+					<p class="amount__text">Ожидает начисления</p>
+					<p class="amount__number">0,0 Баллов</p>
+			    </div>
+			</div>
+		 </div>
+		 <div class="balance__profile">
+			<div class="profile__header">
+			 <img src="./images/pashalka.jpg" class="profile__image">
+			 <h2 class="profile__name">Лера Головач</h2>
+		    </div>
+			
+			<p class="profle__text">Баланс и история выводов</p>
+			<p class="profile__subtitle">Покупки : Нет</p>
+			<div class="profile__status">
+				<h3 class="status__title">Статус incogame</h3>
+				<div class="status__neza">
+					<img src="" class="neza__img">
+					<p class="neza__text">NEZA coins</p>
+				</div>
+				<div class="status__incogame">
+					<h3 class="incogame__coins">Баллы: <p class="coins__amount">1489</p></h3>
+					<h3 class="incogame__cashback">Кешбек: <p class="cashback__amount">1162</p></h3>
+				</div>
+			</div>
+		 </div>
+
+		</main>
+	   <template class="template-balance">
+			<div class="balance__info">
+				<div class="info__amount">
+					<p class="amount__text">Доступно к выводу</p>
+					<p class="amount__number">912 Баллов</p>
+				</div>
+				<div class="info__waiting">
+					<p class="amount__text">Ожидает начисления</p>
+					<p class="amount__number">53 Баллов</p>
+				</div>
+			</div>
+		</template>
+		<template class="template-history">
+			<div class="history">
+				<h3 class="history__title">История покупок:</h3>
+				<ul class="history-of-findings">
+				   <li class="history__element element1">Покупка</li>
+				   <li class="history__element element2">Покупка</li>
+				   <li class="history__element element3">Покупка</li>
+				   <li class="history__element element4">Покупка</li>
+				</ul>
+			</div>
+		</template>
+		
+
+
+
+
+
+
+
+		<script src="js/main.js"></script>
+	</body>
+</html>
