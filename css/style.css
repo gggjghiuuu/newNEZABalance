@@ -202,4 +202,7 @@ width: 80%;
     .neza__text{
         font-size: 15px;
     }
+    .info__amount, .info__waiting{
+        border: none;
+    }
 }
