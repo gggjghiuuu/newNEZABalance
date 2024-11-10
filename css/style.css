@@ -87,6 +87,7 @@ width: 80%;
 .profile__name {
     font-weight: 300;
     font-size: 25px;
+    font-weight: bolder;
 }
 .profile__image{
     width: 50px;
@@ -107,6 +108,7 @@ width: 80%;
 .profile__subtitle {
     padding-top: 20px;
     padding-left: 20px;
+    font-weight: bold;
 }
 .profile__status {
     padding-top: 20px;
@@ -168,6 +170,9 @@ width: 80%;
 
 
 @media (max-width:450px){
+    .header__title {
+        text-align: center;
+    }
     .profile__name{
         font-size:15px;
         margin-left: 4px;
@@ -178,6 +183,9 @@ width: 80%;
         width: 85%;
         height: 45px;
     }
+    .choose{
+        font-size: 15px;
+    }
     .info__main{
         flex-direction: column;
         justify-content: space-between;
@@ -186,8 +194,10 @@ width: 80%;
         margin: auto;
     }
     .balance__profile{
+        width: 80%;
         margin-top: 10px;
         max-height: 600px;
+        border-top:1px solid black;
     }
     .neza__text{
         font-size: 15px;
