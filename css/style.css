@@ -207,6 +207,7 @@ margin-top: 25px;
     }
     .choose{
         font-size: 15px;
+        width: 140px;
     }
     .info__main{
         flex-direction: column;
