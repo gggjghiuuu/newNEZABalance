@@ -230,6 +230,7 @@ width: 80%;
         width: 100%;
         justify-content: space-around;
         height: 50px;
+        margin-top: 20px;
     }
     .rank__text{
         font-size: 18px;
