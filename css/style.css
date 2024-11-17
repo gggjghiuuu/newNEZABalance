@@ -193,6 +193,7 @@ margin-top: 25px;
 
 @media (max-width:450px){
     .header__title {
+        margin-top: 10px;
         text-align: center;
     }
     .profile__name{
