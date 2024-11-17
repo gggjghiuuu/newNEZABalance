@@ -105,10 +105,10 @@ width: 80%;
     justify-content: space-between;
 }
 .rank__icon{
-    background-image: url("./images/ranking-badge.png");
+    background: url("./images/ranking-badge.svg");
     background-size: contain;
-    width: 25px;
-    height:25px;
+    width: 24px;
+    height:24px;
     border: none;
 }
 .profle__text {
