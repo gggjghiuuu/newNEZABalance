@@ -45,3 +45,7 @@ function functionActiveOrDisableTemplate(activeItem, disableItem){
 //         buttonUnPressed.disabled = "false";
 //     }
 // }
+// {/* <div class="status__neza">
+// 					<img src="" class="neza__img">
+// 					<p class="neza__text">NEZA coins</p>
+// 				</div> */}
